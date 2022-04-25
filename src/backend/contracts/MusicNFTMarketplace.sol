@@ -12,4 +12,7 @@ contract MusicNFTMarketplace is
     // CAR file obtainable on https://car.ipfs.io/
     string public baseURI =
         "https://bafybeighetoi264tqbvsi3y6vymllqj62kjcnscab63fp55pgltptufhke.ipfs.nftstorage.link/";
+    string public baseExtension = ".json";
+    address public artist;
+    uint256 public royaltyFee;
 }
